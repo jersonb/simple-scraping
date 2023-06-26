@@ -1,0 +1,67 @@
+---
+marp: true
+title: Scrapping
+theme: uncover
+author: Jerson Brito
+footer: AIDA, 28/06/2023
+header: 'Jerson Brito'
+class:   
+  - invert
+---
+
+# AIDA
+
+## Web Scrapping
+
+### Jerson Brito
+
+#### 28/06/2023
+
+<!-- _footer: "" -->
+<!-- _header: "" -->
+
+---
+<!-- _header: "" -->
+<!-- _footer: "" -->
+
+# Jerson Brito
+
+|||
+|:-:|:-:|
+| LinkedIn |linkedin.com/in/jersonb/|
+| GitHub | github.com/jersonb |
+|||
+
+---
+
+# Disclaimers
+
+- Não sou expert em python
+- Não utilizei a biblioteca padrão de mercado
+
+---
+
+# Do que se trata?
+
+> *Raspagem ou obtenção de dados da Web preferencialmente de forma automátrica.*
+
+---
+
+# Geralmente
+
+- Dados não tabulados
+- Dados não estruturados
+- Dados públicos
+- Sem consitimento prévio de quem gerou
+
+---
+
+# Fontes e Sugestões
+
+- [Web Scraping Python Tutorial – How to Scrape Data From A Website](https://www.freecodecamp.org/news/web-scraping-python-tutorial-how-to-scrape-data-from-a-website/)
+
+- [How to Use Selenium and Python to Scrape Websites More Effectively](https://www.freecodecamp.org/news/improve-web-scraping-with-selenium/)
+
+- [Playwright - Doc](https://playwright.dev/python/)
+
+- [Playwright - GitGub](https://github.com/microsoft/playwright-python)

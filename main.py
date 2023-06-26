@@ -23,6 +23,5 @@ with sync_playwright() as p:
         likes_count = video_page.get_by_role("button", name=re.compile("Marque este vídeo como*")).text_content()
         writerow_csv([video_title, video_link, likes_count])
         i+=1
-       
-    
+        
     browser.close()

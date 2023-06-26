@@ -20,7 +20,7 @@ with sync_playwright() as p:
         video_link =  f'{root_link}{content.get_attribute("href")}' 
         video_page = browser.new_page()
         video_page.goto(video_link)
-        likes_count = video_page.get_by_role("button", name=re.compile("Marque este vídeo como*")).text_content()
+        likes_count = video_page.get_by_role('button', name=re.compile('Marque este vídeo como*')).text_content()
         writerow_csv([video_title, video_link, likes_count])
         i+=1
         

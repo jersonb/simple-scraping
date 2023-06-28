@@ -8,7 +8,7 @@ header: 'Jerson Brito'
 class:   
   - invert
 ---
-
+<!-- utilize a extensão marp para vscode para vizualizar como slides -->
 # AIDA
 
 ## Web Scrapping

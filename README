@@ -9,6 +9,7 @@ class:
   - invert
 ---
 <!-- utilize a extensão marp para vscode para vizualizar como slides -->
+
 # AIDA
 
 ## Web Scrapping
@@ -55,6 +56,49 @@ class:
 - Sem consitimento prévio de quem gerou
 
 ---
+
+# Dados Estruturados
+
+##### JSON
+
+```json
+{
+  "aluno":{
+  "nome":"Jerson Brito",
+  "curso":"Sistemas para internet",
+  "idade":35,
+  "ehMatriculado":true
+  }
+}
+```
+
+---
+
+# Dados Estruturados
+
+##### XML
+
+```xml
+<?xml version="1.0" encoding="UTF-8" ?>
+<aluno>
+  <nome>Jerson Brito</nome>
+  <curso>Sistemas para internet</curso>
+  <idade>35</idade>
+  <ehMatriculado>true</ehMatriculado>
+</aluno>
+```
+
+---
+
+# Dados Estruturados
+
+##### CSV
+
+```csv
+aluno/nome,aluno/curso,aluno/idade,aluno/ehMatriculado
+Jerson Brito,Sistemas para internet,35,true
+```
+---
 # Hello World
 
 ```sh
@@ -70,7 +114,7 @@ class:
 
 # Hello World
 
-```py
+``` py
 from playwright.sync_api import sync_playwright
 
 with sync_playwright() as p:
